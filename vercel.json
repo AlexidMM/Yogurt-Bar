@@ -1,8 +1,18 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": ".svelte-kit",
-  "devCommand": "npm run dev",
-  "installCommand": "npm install",
-  "framework": "svelte",
-  "cleanUrls": true
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
 } 

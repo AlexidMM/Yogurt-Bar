@@ -1,0 +1,4 @@
+.git
+node_modules
+.svelte-kit/dev
+.svelte-kit/generated 

@@ -1,7 +1,7 @@
 <!-- src/routes/+page.svelte -->
 <script lang="ts">
 	import { page } from "$app/state";
-    let companyName = "Yogurt Bar";
+    let companyName = "YoQui";
 </script>
 
 <nav class="flex justify-between items-center p-4 bg-pink-50 text-gray-800 shadow-sm">
